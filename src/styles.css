@@ -72,3 +72,22 @@ footer {
 h4 {
   margin-left: 20px;
 }
+
+.usuario {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 1fr;
+  border-style: solid;
+  border-width: thin;
+  align-items: start;
+  justify-items: stretch;
+}
+
+.usuario p {
+  align-items: center;
+}
+
+.usuario img {
+  width: 50%;
+  height: 100px;
+}
